@@ -4,7 +4,7 @@ public class MainClass {
 		/* create 100 staffs*/
 		for (int i = 0; i < 100; i++) {
 			Staff cur = MainClass.setStaff(i); 
-			Staff prev = MainClass.setStaff(i-1); 
+			Staff prev = MainClass.setStaff(i); 
 			System.out.println(cur.greeting(prev));  
 		}
 	}
